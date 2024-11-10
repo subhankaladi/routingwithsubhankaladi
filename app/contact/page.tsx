@@ -1,23 +1,21 @@
 import React from 'react'
 import Link from 'next/link'
 
-const page = () => {
+const Contact = () => {
   return (
-    <div>
-
-      <header>
+    <div><header>
 
 
-        <ul>
+<ul>
           <li><Link href="/home">Home</Link></li>
           <li><Link href="/about">About</Link></li>
           <li><Link href="/contact">Contact</Link></li>
         </ul>
-      </header>
+  </header>
 
-      <h1>Main Page</h1>
-    </div>
+  <h1>Contact Page</h1>
+  </div>
   )
 }
 
-export default page
+export default Contact

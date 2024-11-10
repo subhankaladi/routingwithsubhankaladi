@@ -1,23 +1,23 @@
 import React from 'react'
-import Link from 'next/link'
+import Link from 'next/link';
 
-const page = () => {
+const Home = () => {
   return (
-    <div>
-
-      <header>
+    <div><header>
 
 
-        <ul>
+<ul>
           <li><Link href="/home">Home</Link></li>
           <li><Link href="/about">About</Link></li>
           <li><Link href="/contact">Contact</Link></li>
         </ul>
-      </header>
+  </header>
 
-      <h1>Main Page</h1>
-    </div>
+  <h1>Home Page</h1>
+  
+  
+  </div>
   )
 }
 
-export default page
+export default Home;
